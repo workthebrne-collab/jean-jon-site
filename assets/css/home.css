@@ -148,8 +148,9 @@ button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
 .btn--dark:hover{background:#000}
 .btn--lemon{background:var(--lemon);color:var(--ink)}
 .btn--lemon:hover{background:var(--lemon-deep)}
-.btn--pink{background:var(--pink);color:var(--ink)}
-.btn--pink:hover{background:var(--pink-dark);color:#FDFAF7}
+.btn--pink{background:var(--ink);color:var(--on-dark)}
+.btn--pink .btn__ico{background:var(--pink);color:var(--ink)}
+.btn--pink:hover{background:#4A3E38;color:var(--on-dark)}
 .btn--pink .btn__ico{background:var(--ink);color:var(--pink)}
 .btn__ico{
   display:grid;place-items:center;width:28px;height:28px;flex:none;
