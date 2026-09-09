@@ -63,8 +63,8 @@
   --pink:#fc59be;
   --pink-ink:#c01d8a;
   --pink-dark:#a81578;
-  --lemon:#ffffc2;
-  --lemon-deep:#f5f0a8;
+  --lemon:#FC59BE;
+  --lemon-deep:#F04AB0;
   --r:16px;
   --radius-pill:999px;
   --track:-0.02em;
@@ -314,7 +314,7 @@ h1,h2,h3,h4,p,ul{margin:0}
   background:var(--lemon);border-radius:var(--radius-pill);
   font-size:var(--t-base);letter-spacing:var(--track);white-space:nowrap;
   transition:background .15s;
-}
+;color:var(--ink)}
 .hdr__quote:hover{background:var(--lemon-deep);color:var(--ink)}
 /* ---- category row (row 2) ----------------------------------------------
    Measured: 56px tall, 16px labels, an icon before each label.           */
